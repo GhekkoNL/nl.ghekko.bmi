@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-
 import '../models/bmi.dart';
 import '../models/bmi_view_model.dart';
 import 'bmi_info.dart';

@@ -104,7 +104,7 @@ class BMIAppState extends ConsumerState<BMIApp> {
             ),
             const Gap(20),
             Container(
-              margin: const EdgeInsets.all(30),
+              margin: const EdgeInsets.all(20),
               child: Column(
                 children: [
                   Text('length'.tr,
@@ -113,7 +113,7 @@ class BMIAppState extends ConsumerState<BMIApp> {
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.only(top: 20, bottom: 36),
+                    padding: const EdgeInsets.only(top: 20, bottom: 20),
                     child: HeightSlider(onHeightChanged: _onHeightChanged),
                   ),
                   Text('weight'.tr,
@@ -122,7 +122,7 @@ class BMIAppState extends ConsumerState<BMIApp> {
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.only(top: 20, bottom: 36),
+                    padding: const EdgeInsets.only(top: 20),
                     child: WeightSlider(onWeightChanged: _onWeightChanged),
                   ),
                 ],
