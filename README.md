@@ -1,6 +1,6 @@
 # Flutter BMI Calculator
 
-Updated version of the BMI Calculator from Halil Durmus https://github.com/halildurmus
+Updated version of the BMI Calculator from Halil Durmus https://github.com/halildurmus <br />
 Fully re-made with Material 3 and updated code
 
 # Software Information
